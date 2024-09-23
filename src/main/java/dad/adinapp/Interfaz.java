@@ -22,13 +22,13 @@ public class Interfaz extends Application {
     private Alert falloAlerta;
     private Alert errorAlerta;
     private Random random = new Random();
-    private int numeroAleatorio;  // Número aleatorio a adivinar
-    private int intentos = 0;     // Contador de intentos
+    private int numeroAleatorio;  
+    private int intentos = 0;     
 
     @Override
     public void start(Stage stage) throws Exception {
 
-        numeroAleatorio = random.nextInt(100) + 1; // Genera un número entre 1 y 100
+        numeroAleatorio = random.nextInt(100) + 1; 
 
         // Interfaz
         propuestaLabel = new Label();
